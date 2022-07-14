@@ -1,0 +1,29 @@
+{
+    "name": "preparation-class-task-answers",
+    "version": "1.0.0",
+    "description": "Refactory Preparation class Answers",
+    "main": "index.js",
+    "author": "Rodericus Ifo Krista",
+    "license": "MIT",
+    "scripts": {
+        "live:06-loop-with-range": "tsnd --respawn --transpile-only ./src/06-loop-with-range.ts",
+        "live:07-fifty-odd-numbers": "tsnd --respawn --transpile-only ./src/07-fifty-odd-numbers.ts",
+        "live:10-add-to-array": "tsnd --respawn --transpile-only ./src/10-add-to-array.ts",
+        "live:11-array-remover": "tsnd --respawn --transpile-only ./src/11-array-remover.ts",
+        "live:14-filtering-data": "tsnd --respawn --transpile-only ./src/14-filtering-data.ts",
+        "build:06-loop-with-range": "tsc && node ./dist/06-loop-with-range.js",
+        "build:07-fifty-odd-numbers": "tsc && node ./dist/07-fifty-odd-numbers.js",
+        "build:10-add-to-array": "tsc && node ./dist/10-add-to-array.js",
+        "build:11-array-remover": "tsc && node ./dist/11-array-remover.js",
+        "build:14-filtering-data": "tsc && node ./dist/14-filtering-data.js"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.7.4"
+    },
+    "engines": {
+        "node": "16.15.1",
+        "npm": "8.13.1"
+    }
+}
